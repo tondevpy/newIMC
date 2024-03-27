@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+body {
+  background: #EDFBFA;
+}
+h1 {
+  text-align: center;
+  color: #6F6F6F;
+  margin-top: 20px;
+}
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.left, .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infos span {
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: #6F6F6F;
+  text-align: center;
+}
+.g {
+  background: #7DD65D;
+}
+.l {
+  background: #C1F138;
+}
+.o {
+  background: #FFB950;
+}
+.os {
+  background: #FF9900;
+}
+.infos strong {
+  color: #6F6F6F;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+.form input {
+  text-align: center;
+  background: #D9D9D9;
+  border: none;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline: none;
+}
+.form button{
+  background: #FF9900;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+.form button:hover {
+  opacity: 0.6;
+}
+select {
+  text-align: center;
+  background: #D9D9D9;
+  color: #767676;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+}
+.retorno {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+}
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px;
+}
+.footer p {
+  margin-bottom: 20px;
+  color: #6F6F6F;
+}
+#developer {
+  margin-top: 100px;
+}
+@media (max-width: 678px) {
+  .infos span {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: #6F6F6F;
+    text-align: center;
+  }
+}

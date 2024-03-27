@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <h1>CALCULADORA IMC</h1>
+
+  <div class="infos">
+    <div class="left">
+      <strong>VALOR DO IMC</strong>
+      <span class="g">Menor que 18,5</span>
+      <span class="l">De 18,5 a 24,99</span>
+      <span class="o">De 25 a 29,99</span>
+      <span class="os">Maior que 30</span>
+    </div>
+    <div class="right">
+      <strong>CLASSIFICAÇÃO</strong>
+      <span class="g">Baixo peso</span>
+      <span class="l">Normal</span>
+      <span class="o">Sobrepeso</span>
+      <span class="os">Obesidade</span>
+    </div>
+  </div>
+
+  <div class="form">
+    <input type="text" name="nome" id="nome" placeholder="Informe seu nome...">
+    <input type="text" name="altura" id="altura" placeholder="Altura ex: 185" oninput="validarNumeros(this)">
+    <input type="text" name="peso" id="peso" placeholder="Peso ex: 85" oninput="validarNumeros(this)">
+    
+    <div class="btn">
+      <button onclick="calcular()" id="calcular">Calcular</button>
+    </div>
+
+  </div>
+  <div class="retorno">
+
+  </div>
+  <div class="footer">
+    <p>
+      O IMC (Índice de Massa Corpórea) é uma medida internacional usada para avaliar nosso peso ideal. Seu cálculo é feito dividindo-se o peso pela altura elevada ao quadrado.
+    </p>
+    <p>
+      O resultado diz se estamos dentro de uma faixa saudável ou não. Caso você esteja abaixo ou acima do recomendado, procure ajuda especializada para receber acompanhamento.
+    </p>
+    <p id="developer">Desenvolvido por TonDevPy</p>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
